@@ -38,6 +38,6 @@ https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/src/core.min.js
 https://cdn.jsdelivr.net/gh/jquery/jquery/
 
 
-```
+```shell
 git add . && git commit -m "update" && git push -f
 ```
