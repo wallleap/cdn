@@ -4,7 +4,7 @@
 
 // note: we recommend using npm for projects that support it
 
-https://cdn.jsdelivr.net/gh/wallleap/cdn@master/
+https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/
 
 
 // load jQuery v3.2.1
