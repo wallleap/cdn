@@ -1,0 +1,1 @@
+$(document).snowfall({deviceorientation : true, image: "http://pngimg.com/uploads/snowflakes/snowflakes_PNG7589.png", minSize: 10, maxSize: 32, flakeCount: 60});
