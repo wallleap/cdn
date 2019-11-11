@@ -12,7 +12,7 @@ function forbidKeyboard() {
         }
     });
     /*禁止文本选择功能*/
-    $(document).bind("selectstart",function(){return false;});
+    // $(document).bind("selectstart",function(){return false;});
 }
 $(function(){
     forbidKeyboard();
