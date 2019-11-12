@@ -11,14 +11,13 @@ function forbidKeyboard() {
         //     return false;
         // }
     });
-    /* 禁止右键 */
-    document.oncontextmenu = function(){
-        return false;
-    }
-
     /*禁止文本选择功能*/
     // $(document).bind("selectstart",function(){return false;});
 }
 $(function(){
     forbidKeyboard();
 });
+/* 禁止右键 */
+document.oncontextmenu = function(){
+    return false;
+}
