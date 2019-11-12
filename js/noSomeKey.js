@@ -7,9 +7,9 @@ function forbidKeyboard() {
                 return false;
             }
         }
-        if ((e.keyCode == 83) && (e.ctrlKey || e.metaKey)) {
-            return false;
-        }
+        // if ((e.keyCode == 83) && (e.ctrlKey || e.metaKey)) {
+        //     return false;
+        // }
     });
     /* 禁止右键 */
     document.oncontextmenu = function(){
